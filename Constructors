@@ -1,0 +1,18 @@
+public class Student
+{
+    int Rollno;
+    String Name;
+    Student(int a,String b){
+        Rollno = a;
+        Name = b;
+    }
+    void show(){
+        System.out.println(Rollno+" "+ Name);
+    }
+    
+	public static void main(String[] args) {
+	    Student m = new Student(1,"Valar");
+	    m.show();
+
+	}
+}
